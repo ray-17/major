@@ -9,17 +9,13 @@ import MiniInfobar from '../../components/MiniInfobar/MiniInfobar'
 import Patients from '../../components/Patients/Patients'
 import Login from '../../components/Login'
 
-const Display = () => {
-  const [patients, setPatients] = useState([]);
+const Display = ({patients}) => {
+  
   return (
     <div className='display'>
-      <div>
-            <h1>Patient Authentication</h1>
-            {patients.length === 0 ? <Login setPatients={setPatients} /> : <Patients patients={patients} />}
-        </div>
         <div className="content-container">
             <Navbar/>
-            <Sidebar/>
+            <Sidebar patients={patients}/>
             <MainContent/>
             <Minicontent/>
             <Infobar/>
@@ -30,4 +26,4 @@ const Display = () => {
   )
 }
 
-export default Display
+export default Display 

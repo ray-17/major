@@ -3,10 +3,10 @@ import './Sidebar.css'
 import assets from '../../assets/assets'
 import Patients from '../Patients/Patients'
 
-const Sidebar = () => {
+const Sidebar = ({patients}) => {
   return (
     <div className='sb'>
-       <Patients/>
+       <Patients patients={patients}/>
         <div className="sb-title">
         <span>Patients</span>
         <div className="sb-search">
