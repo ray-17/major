@@ -1,0 +1,9 @@
+canvas {
+    width: 80% !important;
+    height: 90% !important;
+  }
+  
+.canvas{   
+margin-left: -90px;
+margin-top: 10px;
+}

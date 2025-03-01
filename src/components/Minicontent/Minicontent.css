@@ -1,0 +1,96 @@
+.mic{
+    background: #fff;
+    color: #072635;
+    height: 176px;
+    width: 55vh;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 270px;
+    border-radius: 16px;
+}
+.mic span{
+    position: absolute;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 146px;
+    margin-right: 285px;
+    font-weight: 800;
+}
+
+.headerbar{
+    width: 90%;
+    display: flex;
+    height: 28px;
+    margin-bottom: 106px;
+    background-color: #F6F7F8;
+    border-radius: 24px;
+}
+
+.headerbar ul{
+    
+    margin-left: 10px;
+    padding: 0;
+}
+.headerbar ul li{
+    display: inline-flex;
+    list-style-type: none;
+    margin-right: 16px; 
+    font-size: 8px;
+    font-weight: bold;
+}
+.headerbar ul li:last-child {
+    margin-left: 121px; 
+}
+
+.records-container{
+    position: absolute;
+    background-color: transparent;
+    width: 90%;
+    height: 50%;
+    margin-top: 40px;
+    overflow-y: scroll;
+}
+
+.records-table {
+    height: 100%;
+    border-collapse: collapse;
+    font-size: 14px;
+    color: #072635;
+    margin-left: 10px;
+}
+
+
+.records-table td {
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+    font-size: 8px;
+    padding: 10px;
+    
+}
+
+
+.records-table tr:hover {
+    background-color: #f9f9f9;
+}
+
+
+.records-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.records-container::-webkit-scrollbar-track {
+    background: #E3E4E6; 
+    border-radius: 10px;
+}
+
+.records-container::-webkit-scrollbar-thumb {
+    background-color: #072635;
+    border-radius: 10px;
+}
+
+.records-container::-webkit-scrollbar-thumb:hover {
+    background-color: #0C3D5D; 
+} 

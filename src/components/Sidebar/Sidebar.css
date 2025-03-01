@@ -1,0 +1,71 @@
+.sb{
+    background: #fff;
+    color: #072635;
+    height: 72vh;
+    width: 250px;
+    display: flex;
+    justify-content: start;
+    position: absolute;
+    margin-top: 70px;
+    border-radius: 16px;
+}
+.cardTitle span{
+    display: flex;
+    font-size: 16px;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: 800;
+}
+
+.sb-search input{
+    display: flex;
+    justify-content: center;
+    margin-left: 48px;
+    background:transparent;
+    border: none;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.3s ease-in-out;
+    outline: none;
+    color: #072635;
+    font-size: 11px;
+
+}
+.sb-search input:focus{
+    border-bottom: 2px solid #01F0D0;
+}
+.sb-search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 4px 6px;
+    width: 50%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.sb-search img{
+    width: 16px;
+}
+
+.sb-title span{
+    display: flex;
+    font-size: 16px;
+    margin-top: 10px;
+    margin-left: -230px;
+    font-weight: 800;
+}
+.sb-title .sb-search{
+    display: flex;
+    justify-content: end;
+    margin-left: -130px;
+    margin-top: -21px;
+    position: absolute;
+    gap: 8px;
+    
+    
+}
+.sb-title .sb-search img{
+    width: 14px;
+    display: flex;
+    margin-top: 2px;
+}
